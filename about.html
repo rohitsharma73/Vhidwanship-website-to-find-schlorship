@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidwaanShip</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- header -->
+    <section class="sub-header">
+        <nav>
+            <a href="/">VidwaanShip</a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="schlorship.html">All Schlorships</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+
+        <h1>
+            About Us
+        </h1>
+    </section>
+
+    <!-- About us Section -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>About Us</h1>
+                <p>Here are your VidwaanShip to guide and lead you to your dream college. If you’re a high-achieving
+                    student, you may be looking to apply to some of the top colleges in the nation. Unfortunately, these
+                    prestigious schools can also be very expensive to attend. The cost of higher education is becoming
+                    increasingly prohibitive, and more and more families struggle to pay tuition. </p>
+                <a href="/" class="hero-btn blue-btn">Explore</a>
+            </div>
+            <div class="about-col">
+                <img src="static/img.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>Get support From VidwaanShip</h4>
+        <p>Admissions is a journey you don’t have to face alone. Join Vidwaanship communities to talk about
+            admissions,<br> get friendly answers, and support each other by peer reviewing colleges.</p>
+
+        <div class="icons">
+            <a href="https://m.facebook.com/profile.php?id=100079690240486" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://instagram.com/vidwaanship?utm_medium=copy_link" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/vidwaanship?s=11" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/vidwaanship-undefined-a86802235" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <p>All right reserved <i class='bx bxs-copyright'></i>VidwaanShip</p>
+    </section>
+
+
+    <!-- In line javaScript -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>

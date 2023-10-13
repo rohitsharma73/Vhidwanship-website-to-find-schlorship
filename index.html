@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidwaanShip</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html">VidwaanShip</a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="schlorship.html">All Schlorships</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+
+        <div class="container">
+            <form action="" class="search-bar">
+                <input type="text" placeholder="Serach..." name="search">
+                <button type="submit"><img src="static/search.png" alt="search image"></button>
+            </form>
+        </div>
+
+        <div class="text-box">
+            <h1>VidwaanShip</h1>
+            <p>“Winning is great, sure, but if you are really going to do something in life, the secret is learning how
+                to lose. Nobody goes undefeated all the time. If you can pick up after a crushing defeat, and go on to
+                win again, you are going to be a champion someday.”</p>
+
+            <a href="" class="hero-btn">Vist Us To know More</a>
+        </div>
+    </section>
+
+    <!-- SchlorShip we offers -->
+    <section class="schlor">
+        <h1>SchlorShip Offers</h1>
+        <p>
+            However, some colleges offer full-fleged scholarships, meaning all costs of attendance are
+            covered—including housing, meals, transportation, and books. Other colleges offer full-tuition
+            scholarships, meaning that they cover everything but cost of living.
+        </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Diploma</h3>
+                <p>Keep in mind that these awards are usually recruitment tools for extremely competitive students who
+                    might otherwise enroll elsewhere. For that reason, full-ride scholarships become less common as a
+                    college moves up sthe rank.</p>
+            </div>
+            <div class="course-col">
+                <h3>Under Graduation</h3>
+                <p> Keep in mind that these awards are usually recruitment tools for extremely competitive students who
+                    might otherwise enroll elsewhere. For that reason, full-ride scholarships become less common as a
+                    college moves up sthe rank.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Keep in mind that these awards are usually recruitment tools for extremely competitive students who
+                    might otherwise enroll elsewhere. For that reason, full-ride scholarships become less common as a
+                    college moves up sthe rank.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section of international schlorship -->
+
+    <section class="international">
+        <h1>International SchlorShip</h1>
+        <p>You know the minute you stop thinking about it, it’ll happen.We put in the work so you don’t have to.</p>
+
+        <div class="row">
+
+            <div class="international-col">
+                <img src="static/califonia.jpg" alt="califonia image">
+                <div class="layer">
+                    <h3>CALIFONIA</h3>
+                </div>
+            </div>
+
+            <div class="international-col">
+                <img src="static/new york.jpg" alt="new york image">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+
+            <div class="international-col">
+                <img src="static/washington.jpg" alt="washington image">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>Get support From VidwaanShip</h4>
+        <p>Admissions is a journey you don’t have to face alone. Join Vidwaanship communities to talk about
+            admissions,<br> get friendly answers, and support each other by peer reviewing colleges.</p>
+
+            <div class="icons">
+                <a href="https://m.facebook.com/profile.php?id=100079690240486" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://instagram.com/vidwaanship?utm_medium=copy_link" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/vidwaanship?s=11" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/vidwaanship-undefined-a86802235" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        <p>All right reserved <i class='bx bxs-copyright'></i>VidwaanShip</p>
+    </section>
+
+
+    <!-- In line javaScript -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
